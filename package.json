@@ -1,0 +1,63 @@
+{
+  "name": "kr-formatter",
+  "displayName": "K&R C Formatter",
+  "description": "Format C files in Kernighan & Ritchie (K&R) style globally.",
+  "version": "0.0.1",
+  "publisher": "YOUR_PUBLISHER_ID",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onLanguage:c"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "krFormatter.format",
+        "title": "Format C File (K&R Style)"
+      }
+    ],
+    "languages": [
+      {
+        "id": "c",
+        "extensions": [
+          ".c",
+          ".h"
+        ],
+        "aliases": [
+          "C"
+        ]
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "K&R Formatter Configuration",
+      "properties": {
+        "krFormatter.formatOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable format on save for C files."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/vscode": "^1.102.0",
+    "ts-node": "^10.9.2",
+    "tslint": "^6.1.3",
+    "typescript": "^5.8.3"
+  }
+}
