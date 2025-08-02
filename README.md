@@ -4,7 +4,7 @@
 A simple Visual Studio Code extension that enforces **Kernighan & Ritchie (K&R)** C style formatting globally, without requiring per-project configuration.
 ---
 
-## ✨ Features
+## Features
 
 - Automatically formats C code using the K&R brace style
 - Works globally, no need for `.clang-format` in every directory
@@ -12,7 +12,7 @@ A simple Visual Studio Code extension that enforces **Kernighan & Ritchie (K&R)*
 
 ---
 
-## 🔧 Usage
+## Usage
 
 1. Install the extension from the VSCode Marketplace (or sideload locally)
 2. Open any `.c` or `.h` file
@@ -21,7 +21,7 @@ A simple Visual Studio Code extension that enforces **Kernighan & Ritchie (K&R)*
 
 ---
 
-## 🛠️ Testing Locally
+## Testing Locally
 
 To test the extension locally, follow these steps:
 
@@ -45,7 +45,7 @@ To test the extension locally, follow these steps:
 ---
 
 
-## 📂 File Structure
+## File Structure
 
 ```
 kr-formatter/
@@ -58,6 +58,6 @@ kr-formatter/
 
 ---
 
-## 📝 License
+## License
 
 MIT © Your Name
