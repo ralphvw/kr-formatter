@@ -3,7 +3,7 @@
   "displayName": "K&R C Formatter",
   "description": "Format C files in Kernighan & Ritchie (K&R) style globally.",
   "version": "0.0.1",
-  "publisher": "YOUR_PUBLISHER_ID",
+  "publisher": "ralphvwilliams",
   "repository": {
     "type": "git",
     "url": "https://github.com/ralphvw/kr-formatter.git"
