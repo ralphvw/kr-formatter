@@ -60,4 +60,4 @@ kr-formatter/
 
 ## License
 
-MIT © Your Name
+MIT
